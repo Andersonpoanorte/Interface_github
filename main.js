@@ -1,4 +1,5 @@
 // codigo em javascript //
+
 /*document.addEventListener('DOMContentLoaded', function() {
     const nameElement = document.querySelector('#name');
     const usernameElement = document.querySelector('#username');
@@ -29,6 +30,7 @@
 })*/
 
 // codigo em Jquery //
+
 $(document).ready(function (){
     const nameElement = $('#name');
     const usernameElement = $('#username');
@@ -39,6 +41,7 @@ $(document).ready(function (){
     const linkElement = $('#link');
     
     // Podemos usar o fetch para chamar api. //
+    
     fetch('https://api.github.com/users/Andersonpoanorte')
     .then(function(res){
         return res.json();
